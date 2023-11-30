@@ -25,3 +25,5 @@ def get_lucas_number(n):
 
 
 print('{:.0f}'.format(get_lucas_number(2)))
+
+# Jose Alfredo Monroy
