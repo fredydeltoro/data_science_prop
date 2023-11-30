@@ -1,7 +1,7 @@
 import math
 
 
-# Get lucas secuence
+# Get Lucas sequence
 def lucas_numbers(num_of_elements):
   numbers = [2, 1]
 
