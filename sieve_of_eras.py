@@ -12,6 +12,8 @@ def get_list_of_primes(n):
 
   return primes + numbers
 
+# Filter all multiples of the current number
+
 
 def filter_mulitples(number, arr):
   for i, el in enumerate(arr):
@@ -22,3 +24,5 @@ def filter_mulitples(number, arr):
 
 
 print(get_list_of_primes(100))
+
+# Jose Alfredo Monroy
