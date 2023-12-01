@@ -1,7 +1,7 @@
 import math
 
 
-# Get lucas secuence
+# Get Lucas sequence
 def lucas_numbers(num_of_elements):
   numbers = [2, 1]
 
@@ -25,3 +25,5 @@ def get_lucas_number(n):
 
 
 print('{:.0f}'.format(get_lucas_number(2)))
+
+# Jose Alfredo Monroy
