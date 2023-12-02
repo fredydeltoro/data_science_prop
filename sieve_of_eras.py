@@ -4,9 +4,10 @@ def get_list_of_primes(n):
   numbers = filter_mulitples(primes[0], numbers)
 
   while True:
-    if pow(numbers[0], 2) < n:
-      primes.append(numbers[0])
-      numbers = filter_mulitples(numbers[0], numbers)
+    current = numbers[0]
+    if pow(current, 2) < n:
+      primes.append(current)
+      numbers = filter_mulitples(current, numbers)
     else:
       break
 
